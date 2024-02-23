@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    display: flex;
+    list-style-type: none;
+    height: 150px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 20vw;
+    list-style-type: none;
+    gap: 50px;
+}
+
+.logo {
+    position: relative;
+    top: 50px;
+    left: 30px;
+}
+
+.barra {
+    position: relative;
+    right: 300px;
+    padding: 10px 200px 10px 20px;
+    background-color: rgb(240, 231, 231);
+    border-radius: 10px;
+}
+
+.container {
+    height: 50px;
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.submenu {
+    display: flex;
+    color: white;
+    list-style-type: none;
+    gap: 100px;
+}
+
+h1 {
+    padding-top: 40px;
+    color: purple;
+}
+
+.container2 {
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 450px 450px;
+    justify-content: center;
+    text-align: center; 
+}
+
+.botao {
+   display: flex;
+   justify-content: center;
+   padding-top: 10px 10px 10px 10px;
+   margin-top: 50px;
+   width: 8vw;
+   background-color: purple;
+   color: white;
+   border-radius: 10px;
+}
+
+.teste2 {
+    display: flex;
+    justify-content: center;
+}
+
+.botao:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.wpp {
+    display: flex;
+    justify-content: end;
+    position: fixed;
+    bottom: 20px;
+    left: 92vw;
+ }
+
+ .container4 {
+    display: grid;
+    grid-template-columns: 700px 600px;
+    justify-content: center;
+    text-align: center;
+    height: 100px;
+    position: static;
+    background-color: purple;
+    margin-top: 70px;
+
+ }
+
+ .icone {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+ }
+
+ .texto {
+    position: relative;
+    top: 20px;
+    left: 200px;
+    color: white;
+ }
+
+ .letra {
+    color: white;
+    text-decoration: none; 
+}
